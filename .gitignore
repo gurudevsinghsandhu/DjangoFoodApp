@@ -1,4 +1,4 @@
-./gitignore
-./data.json
-./venv 
+/gitignore
+/data.json
+/venv 
 
