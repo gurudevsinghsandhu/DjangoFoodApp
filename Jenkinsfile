@@ -32,6 +32,7 @@ pipeline {
                     sh "docker push ${env.IMAGE_TAG}"
                 }
             }
+        }
         stage('Changing images in deployment file') {
             steps {
                 echo 'Updating image in deployment file...'
